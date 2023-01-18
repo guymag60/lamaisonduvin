@@ -1,0 +1,137 @@
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Source+Sans+Pro&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+ 
+ /* *********************************NAVBAR************************************ */
+ nav{
+    padding-top: 50px;
+ }
+.navbis{
+    background-color: rgb(179, 29, 29);
+    font-family:'Merriweather';
+    z-index: 99;
+    font-size: 1.2em;
+}
+
+.navbar-brand{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.dropdown-menu li a{
+    color: rgb(179, 29, 29);
+}
+
+/* **************************************************************************************** */
+
+.banner{
+    background: url(../img/vineyards-banner-g36ad580a4_1920.jpg) center center fixed no-repeat;
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 40px;
+}
+img{
+    width: 80%;
+}
+
+h1{
+    font-size: 5em;
+    padding: 70px 0 0 10%;
+    color: rgb(209, 53, 53);
+    text-shadow: -3px 3px 2px #262925;
+    animation: title ease 5.5s;
+}
+
+h2, p{
+    font-family: 'Lato&display';
+    text-align: justify;
+    font-size: 1em;
+}
+h2{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+p.presentation{
+    font-size: 1.3em;
+}
+
+.card-text{
+    font-family: 'Lato';
+    font-size: 1.1em;
+}
+
+.btn{
+    color: var(--bs-danger);
+    border-color: var(--bs-danger);
+    border-width: 3px;
+    transition: 0.5s;
+    margin-left: 255px;
+    font-family: cursive;
+}
+
+.btn-order:hover,
+.btn-order:active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+
+  
+.margin-t{
+    margin-top: 100px;
+}
+
+@keyframes title{
+    0%{
+        opacity: 0;
+        transform: translateY(280px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* *********************************carte********************************* */
+.card-body{
+    font-size: 1.5rem;
+    font-family: 'lato';
+    color: rgb(22, 21, 21);
+    text-align: justify;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.columns{
+    text-align: justify;
+}
+
+/* ***********************************************************FOOTER***************************************************** */
+.gg-row{
+    margin: 20px 50px;
+    padding-top: 35px;
+    color: rgb(225, 217, 217);
+    font-size: 1.2rem;
+    font-family: 'lato';
+    text-align: justify;
+}
+
+a{
+text-decoration: none;
+}
+
+footer{
+    background-color: rgb(209, 53, 53);
+}
+
+.links{
+    margin-top: 110px;
+}
+
+p.days{
+    padding-top: 250px;
+}

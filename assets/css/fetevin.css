@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* *********************************NAVBAR************************************ */
+.navbis{
+    background-color: rgb(179, 29, 29);
+    font-family:'Merriweather';
+    z-index: 99;
+    font-size: 1.2em;
+}
+
+.navbar-brand{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.dropdown-menu li a{
+    color: rgb(179, 29, 29);
+}
+
+/* ************************************************************************************************************************** */
+
+main{
+    padding: 200px 0 0 75px;
+}
+
+h5.card-title{
+    margin-top: -10px;
+}
+
+.card-text{
+    font-family: 'Lato';
+    text-align: justify;
+}
+
+
+.card-text-2{
+    margin-top: -10px;
+    text-align: justify;
+    font-family: 'Lato';
+}
+
+img{
+    width: 90%;
+}
+
+.img-2{
+    width: 91%;
+}
+
+
+/* ***********************************************************FOOTER***************************************************** */
+.gg-row{
+    margin: 20px 50px;
+    padding-top: 35px;
+    color: rgb(225, 217, 217);
+    font-size: 1.2rem;
+    font-family: 'lato';
+    text-align: justify;
+}
+
+a{
+text-decoration: none;
+}
+
+footer{
+    background-color: rgb(209, 53, 53);
+}
+
+.links{
+    margin-top: 110px;
+}
+
+p.days{
+    padding-top: 250px;
+}
+
+
+
