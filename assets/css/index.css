@@ -135,3 +135,30 @@ footer{
 p.days{
     padding-top: 250px;
 }
+
+@media screen and (max-width:1199px){
+    .img-2{
+        max-width: 365px;
+    }
+}
+
+@media screen and (max-width:991px){
+    .img-2{
+        max-width: 275px;
+    }
+}
+
+@media screen and (max-width:767px){
+    .img-2{
+        max-width: 400px;
+        margin-left: 3px;
+    }
+
+    .card-text{
+        margin-left: -15px;
+    }
+
+    .card-title{
+        margin-left: -15px;
+    }
+}
