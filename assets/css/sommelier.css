@@ -69,3 +69,15 @@ footer{
 p.days{
     padding-top: 250px;
 }
+
+@media screen and (max-width: 1000px) {
+    .img-1{
+        width: 60%;
+    }    
+}
+
+@media screen and (max-width: 770px) {
+    .img-2{
+        width:110%;
+    }
+}
